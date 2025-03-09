@@ -1,0 +1,116 @@
+.header-logo {
+  width: 150px;
+}
+header {
+  background: #00233f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+  color: aliceblue;
+}
+.user-logo {
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 0.3%;
+}
+.carousel-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.carousel-div {
+  margin-top: 1%;
+}
+.company-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.company-description {
+  width: 50%;
+  text-align: left;
+}
+
+.company-description h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.company-description p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.leaders-section {
+  width: 50%;
+  text-align: center;
+}
+
+.leaders-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.leader {
+  text-align: center;
+}
+
+.leader-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid black;
+  object-fit: cover;
+}
+
+.leader-name {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer {
+  background-color: #00233f; /* Black background */
+  padding: 40px;
+  color: white; /* White text */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  width: 16%;
+  text-align: left;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white; /* White text for headings */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8); /* Slightly lighter white for readability */
+}
+
+.footer-column ul li:hover {
+  color: #f8d210; /* Optional: Highlight color on hover */
+  cursor: pointer;
+}
